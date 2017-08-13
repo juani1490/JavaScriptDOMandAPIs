@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScriptDOMandAPIs</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+
+	<script>
+		$(function(){
+          $('#seccion_oculta').fadeIn(3000);
+		});
+
+		function create_message(){
+           alert('Mensaje de Alerta');
+		};
+	</script>
+</head>
+<body>
+  
+  <h1>Pagina principal</h1>
+
+  <nav>
+  	Seccion NAV
+  </nav>
+  <br>
+
+  <section id="seccion_oculta">
+    Hellow World
+  </section>
+  <ul id="listado">
+  	
+  </ul>
+
+  <!--<button id="btmessage" onclick="create_message();">Mostrar Mensaje</button>-->
+
+  <!--<button id="btmessage">Mostrar Respuesta</button>-->
+
+  <button id="btmessage">Mostrar Respuesta</button>
+  <input type="text" id="busqueda" name="">
+  
+  <script type="text/javascript" src="js/data_fetching.js"></script>
+
+
+
+	
+</body>
+</html>
