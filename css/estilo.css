@@ -21,22 +21,31 @@ ul{
   }
 
 #seccion_oculta{
-	            display: none;
-	            color: green;
+	              display: none;
+	              color: green;
               	font-size: 50px;
                }
 
 #btmessage{
-	       border-width: 5px;
-	       border-radius: 5px;
-	       background-color: lightgreen;
-	       border-color: green;
+	         border-width: 5px;
+	         border-radius: 5px;
+	         background-color: lightgreen;
+	         border-color: green;
           }
 
           #btmessage:hover{
           	               cursor: pointer;
           	               background-color: green;
                           }
+
+#mitabla{
+         display: block;
+         margin-left: 400px;
+         width: 137px;
+         border-color: black;
+         background-color: red;
+         border-style: solid;
+        }
 
 
 
